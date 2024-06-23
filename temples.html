@@ -4,20 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temples</title>
+    <title>Temple Album</title>
+    <meta name="description" content="An album showcasing various temples, old and new, large and small.">
+    <meta name="author" content="Student Name">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
     <!-- Links to the CSS files for mobile-first development -->
     <link rel="stylesheet" href="styles/mobile.css">
-    <link rel="stylesheet" href="styles/tablet.css" media="(min-width: 600px)">
     <link rel="stylesheet" href="styles/desktop.css" media="(min-width: 1024px)">
     <!-- Deferred script reference to the JavaScript file -->
-    <script src="scripts/main.js" defer></script>
+    <script src="scripts/temples.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1>Temples</h1>
+        <h1>Temple Album</h1>
         <nav>
-            <ul>
+            <button id="hamburger" aria-label="Toggle menu">&#9776;</button>
+            <ul id="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#old">Old</a></li>
                 <li><a href="#new">New</a></li>
@@ -27,6 +32,8 @@
         </nav>
     </header>
     <main>
+        <h2>Temple Gallery</h2>
+        <!-- Main content with images -->
         <figure>
             <img src="images/dctempleold.jpg" alt="Old Temple">
             <figcaption>Old Temple</figcaption>
@@ -43,10 +50,30 @@
             <img src="images/dctemplesmall.jpg" alt="Small Temple">
             <figcaption>Small Temple</figcaption>
         </figure>
+        <figure>
+            <img src="images/temple5.jpg" alt="Temple 5">
+            <figcaption>Temple 5</figcaption>
+        </figure>
+        <figure>
+            <img src="images/temple6.jpg" alt="Temple 6">
+            <figcaption>Temple 6</figcaption>
+        </figure>
+        <figure>
+            <img src="images/temple7.jpg" alt="Temple 7">
+            <figcaption>Temple 7</figcaption>
+        </figure>
+        <figure>
+            <img src="images/temple8.jpg" alt="Temple 8">
+            <figcaption>Temple 8</figcaption>
+        </figure>
+        <figure>
+            <img src="images/temple9.jpg" alt="Temple 9">
+            <figcaption>Temple 9</figcaption>
+        </figure>
     </main>
     <footer>
-        <p>&copy; <span id="currentyear"></span> Jason Larrabee, Virginia.</p>
-        <p id="lastModified"></p>
+        <p>&copy; <span id="current-year"></span> Temple Album. All rights reserved.</p>
+        <p>Last modified: <span id="last-modified"></span></p>
     </footer>
 </body>
 
