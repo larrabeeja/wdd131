@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temples</title>
+    <!-- Links to the CSS files for mobile-first development -->
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/tablet.css" media="(min-width: 600px)">
+    <link rel="stylesheet" href="styles/desktop.css" media="(min-width: 1024px)">
+    <!-- Deferred script reference to the JavaScript file -->
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Temples</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#old">Old</a></li>
+                <li><a href="#new">New</a></li>
+                <li><a href="#large">Large</a></li>
+                <li><a href="#small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <figure>
+            <img src="images/dctempleold.jpg" alt="Old Temple">
+            <figcaption>Old Temple</figcaption>
+        </figure>
+        <figure>
+            <img src="images/dctemplenew.jpg" alt="New Temple">
+            <figcaption>New Temple</figcaption>
+        </figure>
+        <figure>
+            <img src="images/dctemplelarge.jpg" alt="Large Temple">
+            <figcaption>Large Temple</figcaption>
+        </figure>
+        <figure>
+            <img src="images/dctemplesmall.jpg" alt="Small Temple">
+            <figcaption>Small Temple</figcaption>
+        </figure>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Jason Larrabee, Virginia.</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
