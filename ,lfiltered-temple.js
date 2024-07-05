@@ -4,36 +4,77 @@ const temples = [
         location: "Salt Lake City, Utah, USA",
         dedicated: "1893-04-06",
         area: 253000,
-        imageUrl: "https://example.com/salt-lake-temple.jpg"
+        imageUrl: "images/salt_lake_temple.jpg"
     },
     {
         name: "Laie Hawaii Temple",
         location: "Laie, Hawaii, USA",
         dedicated: "1919-11-27",
         area: 10750,
-        imageUrl: "https://example.com/laie-hawaii-temple.jpg"
+        imageUrl: "images/laie_hawaii_temple.jpg"
     },
-    // Add three or more additional temple objects
     {
         name: "Rome Italy Temple",
         location: "Rome, Italy",
         dedicated: "2019-03-10",
         area: 40000,
-        imageUrl: "https://example.com/rome-italy-temple.jpg"
+        imageUrl: "images/rome_temple.jpg"
     },
     {
         name: "Provo City Center Temple",
         location: "Provo, Utah, USA",
         dedicated: "2016-03-20",
         area: 85000,
-        imageUrl: "https://example.com/provo-city-center-temple.jpg"
+        imageUrl: "images/provo_temple.jpg"
     },
     {
         name: "Cedar City Utah Temple",
         location: "Cedar City, Utah, USA",
         dedicated: "2017-12-10",
         area: 42000,
-        imageUrl: "https://example.com/cedar-city-utah-temple.jpg"
+        imageUrl: "images/orem_temple.jpg"
+    },
+    {
+        name: "Washington D.C. Temple",
+        location: "Kensington, Maryland, USA",
+        dedicated: "1974-11-19",
+        area: 160000,
+        imageUrl: "images/dctemplelarge.jpg"
+    },
+    {
+        name: "Frankfurt Germany Temple",
+        location: "Friedrichsdorf, Germany",
+        dedicated: "1987-08-28",
+        area: 12695,
+        imageUrl: "images/frankfurt_germany_temple.jpg"
+    },
+    {
+        name: "Indianapolis Indiana Temple",
+        location: "Indianapolis, Indiana, USA",
+        dedicated: "2015-08-23",
+        area: 34000,
+        imageUrl: "images/indianapolis_temple.jpg"
+    },
+    {
+        name: "Kansas City Missouri Temple",
+        location: "Kansas City, Missouri, USA",
+        dedicated: "2012-05-06",
+        area: 32000,
+        imageUrl: "images/kansas_city_temple.jpg"
+    },
+    {
+        name: "San Diego California Temple",
+        location: "San Diego, California, USA",
+        dedicated: "1993-04-25",
+        area: 72000,
+        imageUrl: "images/sandiego_temple.jpg"
+    },
+    {
+        name: "St. George Utah Temple",
+        location: "St. George, Utah, USA",
+        dedicated: "1877-04-06",
+        area: 11000,
+        imageUrl: "images/saint_george_temple.jpg"
     }
 ];
 
